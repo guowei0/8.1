@@ -1,10 +1,14 @@
 new Swiper('.banner', {
     loop: true,
-    autoplay: true
+    autoplay: {
+        disableOnInteraction: false,
+    }
 });
 new Swiper('.cen_img', {
     direction: 'vertical',
-    autoplay: true,
+    autoplay: {
+        disableOnInteraction: false,
+    },
     loop: true,
     pagination: {
         el: '.swiper-pagination',
