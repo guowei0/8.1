@@ -11,9 +11,8 @@ new Swiper('.cen_img', {
         clickable: true,
     },
 });
+new Swiper('.list');
 
-var parent = document.querySelector('.main');
-console.log(parent)
-new BScroll(parent, {
+new BScroll('.main', {
     scrollbar: true
 });

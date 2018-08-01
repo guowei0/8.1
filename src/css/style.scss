@@ -52,22 +52,24 @@
 
 .list {
     width: 100%;
-    @include display(flex);
-    flex-wrap: wrap;
     margin-top: 0;
-    dl {
-        width: 20%;
-        @include display(flex, column);
-        margin: px2rem(5px) 0;
-        dt {
-            height: px2rem(60px);
-            padding: px2rem(5px);
-            img {
-                max-width: 100%;
+    .list_one {
+        @include display(flex);
+        flex-wrap: wrap;
+        dl {
+            width: 20%;
+            @include display(flex, column);
+            margin: px2rem(5px) 0;
+            dt {
+                height: px2rem(60px);
+                padding: px2rem(8px);
+                img {
+                    max-width: 100%;
+                }
             }
-        }
-        dd {
-            font-weight: 800;
+            dd {
+                font-weight: 800;
+            }
         }
     }
 }

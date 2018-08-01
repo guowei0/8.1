@@ -262,15 +262,18 @@ code {
 
 .list {
   width: 100%;
+  margin-top: 0;
+}
+
+.list .list_one {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 0;
 }
 
-.list dl {
+.list .list_one dl {
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -279,16 +282,16 @@ code {
   margin: 0.13333rem 0;
 }
 
-.list dl dt {
+.list .list_one dl dt {
   height: 1.6rem;
-  padding: 0.13333rem;
+  padding: 0.21333rem;
 }
 
-.list dl dt img {
+.list .list_one dl dt img {
   max-width: 100%;
 }
 
-.list dl dd {
+.list .list_one dl dd {
   font-weight: 800;
 }
 
